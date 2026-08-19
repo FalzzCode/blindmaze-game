@@ -6,6 +6,14 @@
 *.md diff=markdown
 *.php diff=php
 
+# Keep GitHub's language statistics explicit for the application source.
+*.php linguist-language=PHP
+*.blade.php linguist-language=PHP
+*.js linguist-language=JavaScript
+*.jsx linguist-language=JavaScript
+*.html linguist-language=HTML
+*.css linguist-language=CSS
+
 /.github export-ignore
 CHANGELOG.md export-ignore
 .styleci.yml export-ignore

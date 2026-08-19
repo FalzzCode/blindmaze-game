@@ -1,5 +1,10 @@
 # BlindMaze Arcade
 
+![PHP](https://img.shields.io/badge/PHP-8.2%2B-777BB4?logo=php&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript%20%2F%20JSX-React%2018-F7DF1E?logo=javascript&logoColor=111827)
+![HTML](https://img.shields.io/badge/HTML-5-E34F26?logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/Tailwind%20CSS-4-06B6D4?logo=tailwindcss&logoColor=white)
+
 BlindMaze Arcade is a memory maze game. The player studies a 10×10 maze, waits for the walls to disappear, then finds the exit before time runs out.
 
 The project uses Laravel 12 for the API and React with Tailwind CSS for the game interface.
