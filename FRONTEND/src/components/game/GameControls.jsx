@@ -16,8 +16,8 @@ export function MobileActionBar({ phase, hintUsed, onMove, onHint }) {
 
   return (
     <div className="fixed inset-x-3 bottom-3 z-30 sm:hidden">
-      <div className="flex items-center gap-2 rounded-2xl border border-white/10 bg-[#0b172b]/95 p-2.5 shadow-2xl shadow-black/50 backdrop-blur-xl">
-        <div className="grid w-[7.25rem] shrink-0 grid-cols-3 gap-1.5">
+      <div className="flex items-center gap-2 rounded-2xl border border-white/10 bg-[#0b172b]/95 p-3 shadow-2xl shadow-black/50 backdrop-blur-xl">
+        <div className="grid w-[8.5rem] shrink-0 grid-cols-3 gap-2">
           <span />
           <MobileMoveButton label="Move up" icon="↑" disabled={movementDisabled} onClick={() => onMove(-1, 0)} />
           <span />
@@ -53,10 +53,9 @@ function MobileMoveButton({ label, icon, disabled, onClick }) {
       aria-label={label}
       disabled={disabled}
       onClick={onClick}
-      className="grid aspect-square touch-manipulation select-none place-items-center rounded-lg border border-white/10 bg-white/[0.07] text-lg font-black text-cyan-200 transition hover:border-cyan-300/50 hover:bg-cyan-300/10 active:scale-95 disabled:cursor-not-allowed disabled:opacity-30"
+      className="grid aspect-square touch-manipulation select-none place-items-center rounded-xl border border-white/10 bg-white/[0.07] text-xl font-black text-cyan-200 transition hover:border-cyan-300/50 hover:bg-cyan-300/10 active:scale-95 disabled:cursor-not-allowed disabled:opacity-30"
     >
       {icon}
     </button>
   )
 }
-
