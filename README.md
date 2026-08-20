@@ -21,6 +21,10 @@ The project uses Laravel 12 for the API and React with Tailwind CSS for the game
 
 The game includes a custom warning modal, instructions, leaderboard, keyboard controls, touch controls, and responsive portrait and landscape layouts.
 
+## Application flow
+
+The player journey and game-state flow are documented in [flowchart.md](flowchart.md), from entering a username to saving the final highscore.
+
 ## Tech stack
 
 - Laravel 12 and PHP 8.2+
